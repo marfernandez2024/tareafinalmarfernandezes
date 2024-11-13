@@ -1,0 +1,161 @@
+body { 
+  /* Estilo para el título bonito */
+.titulo-bonito {
+  font-family: 'Arial', sans-serif; /* Fuente */
+  font-size: 4em;
+  color: #4A90E2; /* Color de texto */
+  text-align: center; /* Alineación del texto */
+  text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2); /* Sombra del texto */
+  font-weight: bold; /* Negrita */
+  margin-top: 50px; /* Espacio superior */
+  margin-bottom: 20px; /* Espacio inferior */
+  background: linear-gradient(90deg, #FF7E5F, #FEB47B); /* Degradado de fondo */
+  -webkit-background-clip: text;/* Clip para que el fondo afecte al texto */ 
+  color: transparent; /* Color transparente para mostrar el degradado */
+  padding: 10px; /* Relleno alrededor del texto */
+  border-radius: 10px; /* Bordes redondeados */
+}
+    
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgb(212, 249, 229);
+  }
+
+* Estilos de la barra de navegación */
+.navbar {
+    background-color: #343a40; /* Fondo oscuro para la navbar */
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+
+.navbar .container-fluid {
+    display: flex;
+    align-items: center;
+}
+
+.btn {
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.btn-outline-success {
+    color: #28a745;
+    border-color: #28a745;
+    background-color: transparent;
+}
+
+.btn-outline-success:hover {
+    background-color: #28a745;
+    color: white;
+}
+
+.btn-outline-secondary {
+    color: #4b7aa3;
+    border-color: #6c757d;
+    background-color: transparent;
+    font-size: 0.875rem;
+    padding: 5px 10px; /* Tamaño más pequeño */
+}
+
+.btn-outline-secondary:hover {
+    background-color: #6c757d;
+    color: white;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #b4d4ab;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+P{
+    color: #555;
+    text-align: justify;
+    
+}
+.Titulos {
+    color: rgb(68, 0, 255);
+}
+#Definicion, #Clasificacion {
+    color:blue; 
+
+}
+h3 { 
+    color: #555;
+    font-weight: bold;
+h4{ color: #555;
+    font-weight: bold;}
+}
+li{
+    color: #555;
+    font-weight:normal;   
+}
+
+.compartido {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /*divide en 3 columnas una de 1 fracción y otra de dos fracciones*/
+    grid-template-rows: 210px auto;
+    column-gap:30px;
+    row-gap:10px;
+    
+      .grid-item{
+          display:flex;
+          background-color: rgb(246, 229, 229);
+          border: 2px solid rgb(169, 120, 120);
+          align-items: center;
+          justify-content: center;
+      
+         
+  }
+
+
+    .item-especial {
+        background-color:rgb(236, 142, 104)
+        }
+    .item-especial2 {
+        background-color:rgba(169, 222, 239, 0.781)
+        }
+
+    .item-especial3 {
+        background-color:rgba(6, 139, 183, 0.87)
+        }
+    .item-especial4 {
+            background-color:rgba(159, 236, 170, 0.781)
+     }
+     .item-especial5 {
+        background-color:rgba(215, 238, 244, 0.781)
+     }
+     .item-especial6 {
+        background-color:rgba(228, 234, 170, 0.781)
+     }
+}
+/* Propiedades anteriores */
+.subtitulo {
+        /* Propiedades anteriores */
+    
+    font-family: 'Arial', sans-serif;
+    font-size: 1.8em; /* Tamaño del texto */
+    color: #2a5d67; /* Color del texto */
+    text-align: center;
+    font-weight: 600; /* Negrita */
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #eaf4f4; /* Fondo suave */
+    border-radius: 8px;
+    border-left: 5px solid #3a8574; /* Borde decorativo */
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+     /* Nuevo margen inferior */
+     margin-top: 30px; 
+     margin-bottom: 30px;
+}
